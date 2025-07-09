@@ -8,7 +8,6 @@ Note: It is guaranteed that the answer fits in a 32-bit integer. */
 class Solution {
   public:
     int maxProduct(vector<int> &arr) {
-        // code here
         int n = arr.size();
         int max_so_far = arr[0];
         int max_ending_here = arr[0];
