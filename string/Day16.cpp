@@ -3,7 +3,7 @@ Given two non-empty strings s1 and s2, consisting only of lowercase English lett
 Two strings are considered anagrams if they contain the same characters with exactly the same frequencies, regardless of their order. */
 
 class Solution { 
-  public:
+  public:            /////////////////
     bool areAnagrams(string& s1, string& s2) {
         if(s1.length() != s2.length()) 
             return false;
