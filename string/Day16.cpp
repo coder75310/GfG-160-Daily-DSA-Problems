@@ -6,7 +6,6 @@ Two strings are considered anagrams if they contain the same characters with exa
 class Solution {
   public:
     bool areAnagrams(string& s1, string& s2) {
-        // code here
         if(s1.length() != s2.length()) 
             return false;
             
