@@ -15,7 +15,7 @@ class Solution {
         for(char ch : s){
             freq[ch - 'a']++;
         }
-        ////////////////////////
+        
         // Second pass: find first non-repeating character
         for(char ch : s){
             if (freq[ch - 'a'] == 1){
