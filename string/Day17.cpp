@@ -7,6 +7,7 @@ Note: When you return '$' driver code will output -1. */
 
 class Solution {
   public:
+// Your code here
     char nonRepeatingChar(string &s) {
         int freq[26] = {0};
         
