@@ -38,7 +38,7 @@ class Solution {
         if(sign == 1 && result > INT_MAX) return INT_MAX;
         if (sign == -1 && -result < INT_MIN) return INT_MIN;
         
-            i++;
+            i++;   
         }
         
         return (int)(sign * result);
