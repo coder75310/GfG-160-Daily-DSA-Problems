@@ -13,7 +13,7 @@ If the integer is greater than 231 – 1, then return 231 – 1 and if the integ
 class Solution {
   public:
     int myAtoi(char *s) {
-        // Your code here  //
+        // Your code here  
         int i = 0;
         long result = 0;
         int sign = 1;
