@@ -6,7 +6,7 @@ Note: A palindrome string is a sequence of characters that reads the same forwar
 
 class Solution {
   public:
-      // write your code here
+      // write your code here  //
     int minChar(string& s) {
         // Write your code here
         string rev = s;
