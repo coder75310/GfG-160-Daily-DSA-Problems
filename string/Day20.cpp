@@ -7,7 +7,6 @@ Note: A string is a rotation of another if it can be formed by moving characters
 
 class Solution {
   public:
-
     // Function to check if two strings are rotations of each other or not.
     bool areRotations(string &s1, string &s2) {
         // Your code here
