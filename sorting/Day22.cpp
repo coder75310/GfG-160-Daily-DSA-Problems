@@ -8,7 +8,7 @@ The H-index is defined as the maximum value H such that the researcher has at le
 class Solution {
   public:
     // Function to find hIndex
-// Your cod
+// Your co
     int hIndex(vector<int>& citations) {
         // code here
         sort(citations.begin(), citations.end(), greater<int>());
