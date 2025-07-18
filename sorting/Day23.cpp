@@ -5,7 +5,7 @@ Note : Inversion count is the number of pairs of elements (i, j) such that i < j
 
 class Solution {
   public:
-        // Your
+        // You
   long long merge(vector<int>& arr, vector<int>& temp, int left,int mid, int right) {
       int i = left; // left subarray
       int j = mid + 1; // right subarray
