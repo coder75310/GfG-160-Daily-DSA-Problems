@@ -18,7 +18,6 @@ class Solution {
         int i = 0;
         int n = intervals.size();
 
-      // Y
         // 1.Add all intervals that end before newIntervals starts
         while(i < n && intervals[i][1] < newInterval[0]){       
             result.push_back(intervals[i]);
