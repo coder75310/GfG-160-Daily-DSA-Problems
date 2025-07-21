@@ -10,7 +10,7 @@ class Solution {
   public:
   // Your code  
     int minRemoval(vector<vector<int>> &intervals) {
-        // code he
+        // code h
         sort(intervals.begin(), intervals.end(), [](const vector<int> &a, const vector<int> &b){
             return a[1] < b[1];
         });
