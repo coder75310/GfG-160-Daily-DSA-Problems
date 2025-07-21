@@ -8,7 +8,7 @@ Note: Two intervals are considered non-overlapping if the end time of one interv
 
 class Solution {
   public:
-  // Your cod
+  // Your 
     int minRemoval(vector<vector<int>> &intervals) {
         // code here
         sort(intervals.begin(), intervals.end(), [](const vector<int> &a, const vector<int> &b){
