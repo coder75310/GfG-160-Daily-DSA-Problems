@@ -5,7 +5,7 @@ Modify a[] so that it contains the first n elements and modify b[] so that it co
 
 class Solution {
   public:
-  // Write
+  // Wri
     void mergeArrays(vector<int>& a, vector<int>& b) {
         // code here
         int n = a.size(), m = b.size();
