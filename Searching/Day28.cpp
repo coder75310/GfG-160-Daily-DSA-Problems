@@ -4,7 +4,7 @@ Given a sorted array, arr[] and a number target, you need to find the number of 
 
 class Solution {
   public:
-  // write your 
+  // write 
   // Function to find the first occurence of target
   int firstOccurence(vector<int>& arr, int target){
       int low = 0, high = arr.size() -1, result = -1;
