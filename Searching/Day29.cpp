@@ -4,7 +4,7 @@ A sorted array of distinct elements arr[] is rotated at some unknown point, the 
 
   class Solution {
   public:
-  // Your code is here
+  // Your code is he
     int findMin(vector<int>& arr) {
         // complete the function here
         int low = 0, high = arr.size() - 1;
