@@ -5,7 +5,6 @@ If the key is not present in the array, return -1. */
 
 class Solution {
   public:
-  // write yo
     int search(vector<int>& arr, int key) {
         // Code Here
         int low = 0, high = arr.size() - 1;
