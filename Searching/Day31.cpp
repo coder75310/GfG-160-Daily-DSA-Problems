@@ -9,7 +9,7 @@ Note: Consider the element before the first element and the element after the la
 
 
 //  Function to find the peak element
-// yo
+// 
 int peakElement(int *arr, int n) {
     // code here
     int low = 0, high = n - 1;
