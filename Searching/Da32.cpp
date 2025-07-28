@@ -5,7 +5,7 @@ Given two sorted arrays a[] and b[] and an element k, the task is to find the el
 // User function Template for C
 
 int kthElement(int *a, int n, int *b, int m, int k) {
-    // Your 
+    // Your code 
     // code here
     // Ensure a is the smaller array
     if (n > m) return kthElement(b, m, a, n, k);
