@@ -8,7 +8,7 @@ The task is to assign stalls to k cows such that the minimum distance between an
 
 // Comparision function for qsort
 int compare(const void *a, const void *b){
-    // your code is
+    // your code
     return (*(int*)a - *(int*)b);
 }
 
