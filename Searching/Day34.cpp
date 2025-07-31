@@ -13,7 +13,7 @@ Note: If it is not possible to allocate books to all students, return -1. */
 
 class Solution {
   public:
-// Your code is 
+// Your
     bool isPossible(vector<int>& arr, int k, int maxPages) {
     // code here
     int students = 1;
