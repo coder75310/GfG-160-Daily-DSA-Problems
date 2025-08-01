@@ -5,7 +5,7 @@ Given a sorted array of distinct positive integers arr[], You need to find the k
 // User function template for C++
 
 class Solution {
-// your code
+// your code is 
   public:
     int kthMissing(vector<int> &arr, int k) {
         // Your code goes here
