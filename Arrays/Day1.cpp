@@ -5,7 +5,8 @@ If the second largest element doesn't exist then return -1.
 Note: The second largest element should not be equal to the largest element. */
 
 
-int getSecondLargest(int *arr, int n) {
+int getSecondLargest(int *arr, int n) { 
+    ///////////////////////////////////////////////////
     // code here
     if(n<2)
         return -1;
@@ -25,3 +26,4 @@ int getSecondLargest(int *arr, int n) {
     
     return second;
 }
+
