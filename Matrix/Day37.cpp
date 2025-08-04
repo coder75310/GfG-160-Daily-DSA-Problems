@@ -3,7 +3,7 @@ Given a square matrix mat[][] of size n x n. The task is to rotate it by 90 degr
 
 
 class Solution{
-/////////////
+///////
     public:
     void rotateMatrix(vector<vector<int>>& mat){
         // code here
