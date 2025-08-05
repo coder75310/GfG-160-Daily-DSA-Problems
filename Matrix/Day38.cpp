@@ -1,6 +1,5 @@
 // User function template for C++
 class Solution {
-  // 
   public:
     bool matSearch(vector<vector<int>> &mat, int x) {
         // your code here
