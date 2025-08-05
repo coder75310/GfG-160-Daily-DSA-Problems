@@ -1,21 +1,16 @@
-class Solution{
-    public:
-    void rotateMatrix(vector<vector<int>>& mat){
-        // code here
-        int n=mat.size();
-        // Transpose the matrix
-        for(int i=0; i<n; i++){
-            for(int j=i+1; j<n; j++){
-                swap(mat[i][j],mat[j][i]);
-            }
+// User function template for C++
+class Solution {
+  public:
+    bool matSearch(vector<vector<int>> &mat, int x) {
+        // your code here
+        int r=0, n=mat.size(), c=mat[0].size()-1;
+        while(r<n && c>=0) {
+            if(mat[r][c] == x) return true;
+            else if(mat[r][c] > x) c--;
+            else r++;
         }
+        return false;
         
-        // reverse column
-        for(int j=0; j<n; j++){
-            for(int i=0, k=n-1; i<k; i++, k--){
-                swap(mat[i][j], mat[k][j]);
-            }
-        }
     }
 };
 
