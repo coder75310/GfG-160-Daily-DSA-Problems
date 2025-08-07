@@ -6,7 +6,7 @@ greater than the last element of the (i-1)th row. */
 
 class Solution {
   public:
-  // Your code is here
+  // Your code is
     bool searchMatrix(vector<vector<int>> &mat, int x) {
         // code here
         int r=0, c=mat[0].size()-1, n=mat.size();
