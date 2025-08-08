@@ -1,0 +1,110 @@
+Set Matrix Zeros :
+// class Solution {
+//   public:
+//     void setMatrixZeroes(vector<vector<int>> &mat) {
+//         // code here
+//         int n=mat.size(), m=mat[0].size();
+//         bool rf=false, cf=false;
+//         for(int j=0; j<m; j++){
+//             if(mat[0][j] == 0){
+//                 rf=true;
+//                 break;
+//             }
+//         }
+//         for(int i=0; i<n; i++){
+//             if(mat[i][0] == 0){
+//                 cf = true;
+//                 break;
+//             }
+//         }
+        
+//         for(int i=1; i<n; i++){
+//             for(int j=1; j<m; j++){
+//                 if(mat[i][j] == 0){
+//                     mat[i][0] = 0;
+//                     mat[0][j] = 0;
+//                 }
+//             }    
+//         }
+        
+//         for(int i=1; i<n; i++){
+//             for(int j=1; j<m; j++){
+//                 if(mat[i][0] == 0 || mat[0][j] == 0){
+//                     mat[i][j] = 0;
+//                 }
+//             }
+//         }
+        
+//         if(rf){
+//             for(int j=0; j<n; j++){
+//                 mat[0][j]=0;
+//             }
+//         }
+//         if(rf){
+//             for(int i=0; i<n; i++){
+//                 mat[i][0]=0;
+//             }
+//         }
+//     }
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution {
+  public:
+    void setMatrixZeroes(vector<vector<int>> &mat) {
+        // code here
+        int n=mat.size();
+        int m=mat[0].size();
+        bool rf=false, cf=false;
+        for(int j=0; j<m; j++){
+            if(mat[0][j] == 0){
+                rf=true;
+                break;
+            }
+        }
+        for(int i=0; i<n; i++){
+            if(mat[i][0] == 0){
+                cf=true;
+                break;
+            }
+        }
+        
+        for(int i=1; i<n; i++){
+            for(int j=1; j<m; j++){
+                if(mat[i][j] == 0){
+                    mat[i][0]=0;
+                    mat[0][j]=0;
+                }
+            }    
+        }
+        
+        for(int i=1; i<n; i++){
+            for(int j=1; j<m; j++){
+                if(mat[i][0] == 0 || mat[0][j] == 0){
+                    mat[i][j] = 0;
+                }
+            }
+        }
+        
+        if(rf){
+            for(int j=0; j<m; j++){
+                mat[0][j]=0;
+            }
+        }
+        if(cf){
+            for(int i=0; i<n; i++){
+                mat[i][0]=0;
+            }
+        }
+    }
+};
