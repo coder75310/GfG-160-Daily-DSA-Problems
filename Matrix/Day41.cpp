@@ -12,7 +12,6 @@ all the elements in the i-th row and j-th column are set to 0. */
 //         for(int j=0; j<m; j++){
 //             if(mat[0][j] == 0){
 //                 rf=true;
-                // else
 //                 break;
 //             }
 //         }
